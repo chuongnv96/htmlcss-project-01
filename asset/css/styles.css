@@ -52,7 +52,14 @@ a {
 
 /* Header */
 /* =====Navbar====== */
-.header {
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap {
     position: relative;
     background: #e6f0ff;
     height: 100vh;
@@ -61,7 +68,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -94,12 +101,11 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
-    z-index: 0;
 }
 
 /* ======Hero Infor======= */
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
     max-width: 51%;
 }
 
